@@ -92,5 +92,5 @@ Input : eeg
 Output: ege
 Explanation: No two of the adjacent letters are same in the output string.
     
-    
+  '''  
  
