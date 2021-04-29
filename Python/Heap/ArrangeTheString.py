@@ -1,4 +1,4 @@
-'''
+"""
 Query : Arrange The String
 Task:
 Input a string S (assume lowercase letters) and arrange the letters of the string in such a way that no two adjacent letters are same.
@@ -11,7 +11,7 @@ We will use :
  1) heap data structure thus importing heapq
     In python we dont have max heap thus implementing through min heap by inserting the negation of the value
  2) OrderedDict to store the frequencies of the letters in the input string
-'''
+"""
 import heapq
 from collections import OrderedDict
 
@@ -74,7 +74,7 @@ if __name__ == "__main__":
         print(output_string)
         
     
-'''
+"""
 COMPLEXITY:
 	
 	 Time Complexity -> O(N*log N).
@@ -92,5 +92,5 @@ Input : eeg
 Output: ege
 Explanation: No two of the adjacent letters are same in the output string.
     
-  '''  
+"""
  
